@@ -6,3 +6,44 @@ h1 {
 h2{
     background: rgb(112, 199, 95);
 }
+body {
+    width: 960px;
+    background:  #7777;
+    margin: auto;
+}
+
+header,
+nav,
+.section,
+.h1,
+.p,
+.aside,
+.footer {
+    background:white;
+    height: 80px;
+    width: 100%;
+    padding: auto;
+    text-align: center; 
+    padding-bottom: 100%;
+    float: left; 
+}
+
+.article {
+    background: grey;
+    color: white;
+    float: clear;
+
+}
+
+.section {
+    width: 55%;
+float: left; 
+margin-right: 10px;
+height: 220px;
+}
+
+.aside {
+    width: 40%;
+    float: left;    
+    height: 220px;   
+}
